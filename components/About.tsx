@@ -17,7 +17,7 @@ function About({}: Props) {
             </h3>
 
             <motion.img 
-                className='mt-20 -mb-10 md:mb-0 flex-shrink-0 w-36 h-36 rounded-full object-cover md:rounded-lg md:w-[200px] md:h-[300px] xl:w-[300px] xl:h-[360px]'
+                className='-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[300px] xl:h-[360px]'
                 initial={{
                     x: -200,
                     opacity: 0,
@@ -34,10 +34,10 @@ function About({}: Props) {
             />
 
             <div className='space-y-10 px-0 md:px-10'>
-                <h4 className='text-xl md:text-2xl md:mt-20 xl:mt-10 lg:text-3xl font-semibold '>
+                <h4 className='text-4xl font-semibold '>
                     Here is a <span className='underline decoration-[#F7AB0A]/50'>little</span> background
                 </h4>
-                <p className='text-xs md:text-base'>
+                <p className='text-base'>
                     I'm Elon Musk 🚀, CEO of SpaceX. As an entrepreneur and visionary, I've dedicated my life to pushing the boundaries of innovation and shaping a future that's both exciting and sustainable. Through companies like Tesla, SpaceX, Neuralink, and The Boring Company, I strive to revolutionize transportation, energy, space exploration, and the human mind. Together, let's embark on this extraordinary journey to transform our world and unlock the full potential of humanity's boundless imagination.
                 </p>
             </div>
